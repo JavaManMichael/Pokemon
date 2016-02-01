@@ -1,23 +1,24 @@
 
+
 public class Pokemon
 	{
 		int attack;
 		int defense;
 		int hitpoints;
-		int SpecialAttack;
-		int SpecialDefense;
 		int pokeballNumber;
 		String name;
+		String move;
+		int moveNum;
 		
-		public Pokemon(int atk, int def, int hp, int pballNum,int sa, int sd, String n)
+		public Pokemon(int atk, int def, int hp, int pballNum, String n, String m, int mn)
 			{
 				attack = atk;
 				defense = def;
 				hitpoints = hp;
-				SpecialAttack = sa;
-				SpecialDefense = sd;
 				pokeballNumber = pballNum;
 				name = n;
+				move = m;
+				moveNum = mn;
 			}
 		
 		public int getAttack()
@@ -89,6 +90,6 @@ public class Pokemon
 			{
 				this.name = name;
 			}
-
+//This isn't working at home.
 		
 	} 
