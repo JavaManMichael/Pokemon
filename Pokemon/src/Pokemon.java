@@ -1,5 +1,3 @@
-
-
 public class Pokemon
 	{
 		int attack;
@@ -49,26 +47,6 @@ public class Pokemon
 		public void setHitpoints(int hitpoints)
 			{
 				this.hitpoints = hitpoints;
-			}
-
-		public int getSpecialAttack()
-			{
-				return SpecialAttack;
-			}
-
-		public void setSpecialAttack(int specialAttack)
-			{
-				SpecialAttack = specialAttack;
-			}
-
-		public int getSpecialDefense()
-			{
-				return SpecialDefense;
-			}
-
-		public void setSpecialDefense(int specialDefense)
-			{
-				SpecialDefense = specialDefense;
 			}
 
 		public int getPokeballNumber()
