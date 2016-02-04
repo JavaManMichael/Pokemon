@@ -4,7 +4,7 @@ public class PlayerPokemon
 	{
 		static ArrayList <Pokemon> pokemon = new ArrayList<Pokemon>();
 		
-		public static void fillEnemies()
+		public static void fillplayerPokemon()
 			{
 				pokemon.add(new Pokemon (30,41,38,1,"Zigzagoon","Super Fang", 10));
 				pokemon.add(new Pokemon (80,100,40,2,"Geodude","Rock Throw",5));
