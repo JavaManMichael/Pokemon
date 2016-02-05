@@ -8,6 +8,26 @@ public class Pokemon
 		String move;
 		int moveNum;
 		
+		public String getMove()
+			{
+				return move;
+			}
+
+		public void setMove(String move)
+			{
+				this.move = move;
+			}
+
+		public int getMoveNum()
+			{
+				return moveNum;
+			}
+
+		public void setMoveNum(int moveNum)
+			{
+				this.moveNum = moveNum;
+			}
+
 		public Pokemon(int atk, int def, int hp, int pballNum, String n, String m, int mn)
 			{
 				attack = atk;
